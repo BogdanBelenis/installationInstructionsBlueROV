@@ -2,12 +2,12 @@
 
 Setup of Raspberry Pi 4 for BlueROV2 Slam algorithms with Sonar.
 
-Image of Ubuntu 20.04 for RPI 4 is [here](https://ubuntu.com/download/raspberry-pi).
-This is a server version, which is enough for an Underwater Robot.
+You can create a bootable SD in an easier manner using the RPI Imager [here](https://www.raspberrypi.com/software/).
+We will use Ubuntu 22.04.3 Server LTS version, which is enough for our BlueROV, since we do not need a GUI.
 
 Download the `installationStart.sh` and start it with `source installationStart.sh`
 This script installs:
-* ROS Noetic
+* ROS2 Humble
 * Mavros
 * small additional necessary packages/nice settings
 
