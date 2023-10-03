@@ -21,10 +21,10 @@ For other installations follow these scripts:
 
 # Network Settings
 
-Change hostname in `/etc/hostname` to desired name(here `pibluerov`).
+Change hostname in `/etc/hostname` to desired name(here `bluerov_toptube`).
 add ip address + hostname to `/etc/hosts`
 
-Example: `192.168.0.3 pibluerov`
+Example: `192.168.0.3 bluerov_toptube`
 
 # add static ip address:
 
