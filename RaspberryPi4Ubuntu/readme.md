@@ -26,7 +26,7 @@ add ip address + hostname to `/etc/hosts`
 
 Example: `192.168.0.3 bluerov_toptube`
 
-# add static ip address:
+# Add static ip address:
 
 On pi: add following lines at `/etc/netplan/******.yaml`
 ```network:
@@ -44,7 +44,7 @@ Connection for Mavros/Link : `mavlink-routerd -e 192.168.2.1:14550 -e 127.0.0.1:
 connect with mavlink Console: `./Tools/mavlink_shell.py /dev/ttyACM0`
 
 
-Install pigpio:
+# Install pigpio:
 ```
 cd ~/Documents
 sudo wget https://github.com/joan2937/pigpio/archive/master.zip
@@ -56,13 +56,13 @@ sudo pigpiod
 
 ```
 
-Restart PiCam:
+# Restart PiCam:
 ```
 sudo modprobe -r uvcvideo
 sudo modprobe uvcvideo
 ```
 
-Synchronize Time of PIs:
+# Synchronize Time of PIs:
 ```
 https://raspberrypi.stackexchange.com/questions/89675/sync-time-for-all-raspberry-pis-on-local-network-without-internet
 https://pimylifeup.com/raspberry-pi-time-sync/
